@@ -245,7 +245,7 @@ body {
   left: 10px;
 }
 /* Image */
-header p img {
+header a img {
   display: inline-block;
-  transform: translatex(-229px) translatey(-5px);
+  transform: translatex(648px) translatey(0px);
 }
