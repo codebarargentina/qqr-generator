@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Generator by Codebar.ar</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <a href="https://codebar.ar"><img src="images/logo.jpg" /></a>
+    </header>
+
+    <div class="container">
+      <div class="header">
+        <div>Generador QR Code</div>
+      </div>
+      <input
+        type="text"
+        placeholder="ingresá el enlace URL o agregá algún texto"
+        class="text-field"
+      />
+      <ul class="mode">
+        <li class="active">Básico</li>
+        <li>Modelo 1</li>
+        <li>Modelo 2</li>
+      </ul>
+      <button class="gen">Generar</button>
+      <br />
+      <label>
+        <input type="checkbox" class="checkbox" />
+        <span>Agregar logo</span>
+      </label>
+      <div class="upload">Logo personalizado</div>
+      <input
+        type="file"
+        class="file-selector"
+        accept=".png, .jpg, .jpeg, .svg"
+      />
+      <div class="qr-container">Qr Code</div>
+      <div class="download">
+        <span>Descargar: </span>
+
+        <li>PNG</li>
+        <li>JPG</li>
+        <li>SVG</li>
+        <a href="https://www.codebar.ar/" class="volver">Volver al sitio</a>
+      </div>
+    </div>
+    <div>
+      
+      <p style="text-align: center;">Creado por <a href="https://codebar.ar"><strong>Codebar.ar</strong></a></p>
+
+
+
+      </p>
+    </div>
+
+    <script src="qr-code-styling.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
