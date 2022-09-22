@@ -36,8 +36,7 @@ body {
 
 /*css original*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-.flex-container {
-  display: flex;
+.container {
   width: 600px;
   height: 100%;
   margin: auto;
@@ -245,8 +244,4 @@ body {
   position: relative;
   left: 10px;
 }
-/* Image */
-header a img {
-  display: inline-block;
-  transform: translatex(648px) translatey(0px);
-}
+@media (max-width: 600px);
